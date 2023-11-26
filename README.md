@@ -5,7 +5,7 @@ BungeeGuard is a plugin-based security/firewall solution for [BungeeCord](https:
 * [Download](https://github.com/lucko/BungeeGuard/releases)
 * [Development Builds (Jenkins)](https://ci.lucko.me/job/BungeeGuard/)
 * [Install Guide](INSTALLATION.md)
-
+ 
 ## The problem
 
 BungeeCord installations are **insecure by default**, and require additional firewall rules to be configured (using iptables or otherwise) to prevent malicious users from bypassing the proxy and connecting using any uuid/username they choose.
