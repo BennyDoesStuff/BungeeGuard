@@ -54,6 +54,7 @@ public class BungeeGuardBackendPlugin extends JavaPlugin implements BungeeGuardB
         this.tokenStore = new TokenStore(this);
         this.tokenStore.load();
 
+        /*
         if (!getServer().spigot().getConfig().getBoolean("settings.bungeecord", false)) {
             getLogger().severe("------------------------------------------------------------");
             getLogger().severe("'settings.bungeecord' is set to false in spigot.yml.");
@@ -64,6 +65,7 @@ public class BungeeGuardBackendPlugin extends JavaPlugin implements BungeeGuardB
             getServer().shutdown();
             return;
         }
+        */
 
         if (isPaperHandshakeEvent()) {
             getLogger().info("Using Paper's PlayerHandshakeEvent to listen for connections.");
